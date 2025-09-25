@@ -5,10 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Our Products</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/logo.png">
 </head>
 <body>
 
     <header>
+      <section class="hero kenburns-top-right gradient-bg-1">
+  </section>
      <img src="images/logo.png" width="200" height="150">
       <h1>Welcome to CaseCraze</h1>
       <nav>
@@ -23,20 +26,57 @@
   <section class="products">
     <div class="product-card">
       <img src="images/clear phonecase.png" alt="Clear Case">
-      <h3>Clear Protective Case</h3>
+      <a href="images/clear phonecase.png" target="_blank"></a>
+     <h3>Clear Protective Case</h3>
       <p>Minimalist design, scratch-resistant, fits all models.</p>
     </div>
+    <div class="product-buy-section">
+       <span class="product-price">R130</span>
+    <button class="btn add-to-cart">Add to Cart</button>
+     </div>
+
     <div class="product-card">
       <img src="images/leather phone case.png" alt="Leather Case">
+      <a href="images/leather phone case.png" target="_blank"></a>
       <h3>Premium Leather Case</h3>
       <p>Stylish and durable, crafted from genuine leather.</p>
     </div>
+ <div class="product-buy-section">
+   <span class="product-price">R300</span>
+    <button class="btn add-to-cart">Add to Cart</button>
+       </div>
+
     <div class="product-card">
       <img src="images/colorful phone case.png " alt="Colorful Case">
+     <a href="images/colorful phone case.png" target="_blank"></a>
       <h3>Colorful Shockproof Case</h3>
       <p>Vibrant colors with full drop protection.</p>
+      <div class="product-buy-section">
+         <span class="product-price">R200</span>
+    <button class="btn add-to-cart">Add to Cart</button>
+       </div>
     </div>
   </section>
+
+  <section class="video-section">
+      <h2>How Our Cases Are Made</h2>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/p9-CQ5pPAVU?si=pfuwu59iZ5hLVdAr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+      </div>
+    </section>
+
+     <section class="cart-section">
+      <h2>Your Shopping Cart</h2>
+      <div id="cart-items">
+        <p class="empty-cart-message">Your cart is empty.</p>
+      </div>
+      <div class="cart-total">
+        <strong>Total: <span id="cart-total-price">$0.00</span></strong>
+      </div>
+    </section>
+  </main>
+  
 
   <footer>
     <p>Email: cazecraze.co.za </p>
