@@ -1,5 +1,8 @@
 # Nomhle-WEDE 
+
 Part 2
+
+
 Website CSS Improvement
 Overview
 This project contains custom CSS styling for a modern, visually appealing website. The design emphasizes a clean and contemporary look, with gradients, responsive layout considerations, and enhanced typography.
