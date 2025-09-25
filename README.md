@@ -1,4 +1,35 @@
-# Nomhle-WEDE
+# Nomhle-WEDE 
+Part 2
+Website CSS Improvement
+Overview
+This project contains custom CSS styling for a modern, visually appealing website. The design emphasizes a clean and contemporary look, with gradients, responsive layout considerations, and enhanced typography.
+Upgrades and Features
+1.	Background
+o	Upgraded from a plain background to a linear gradient.
+o	Gradient direction: 135deg.
+o	Gradient colors: green → semi-transparent blue (#0ca065 → #0b3e8ba8), giving a fresh, vibrant feel.
+2.	Typography
+o	Font upgraded to 'Segoe UI', sans-serif for modern readability.
+o	Default text color set to #333 for better contrast and accessibility.
+3.	Layout
+o	Removed default browser margins and padding (margin: 0; padding: 0) to allow full control over page spacing.
+o	Ensured min-height: 100vh for the body to make the gradient cover the full viewport.
+4.	Responsive Enhancements
+o	Background gradient scales with the page.
+o	Base font and spacing allow easy customization for mobile and desktop.
+Next Steps / Potential Upgrades
+•	Adding social media icons (Twitter, Instagram, WhatsApp) with hover effects.
+•	Incorporating background images for specific pages while maintaining gradient overlay.
+•	Enhancing headers, buttons, and links for better UI consistency.
+
+
+
+
+
+
+
+Part 1
+
 ST10470578
 Nomhle Makhanya
 WEDE Business Proposal for CaseCraze
